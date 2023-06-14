@@ -20,5 +20,5 @@ Você deverá colocar os links da planilha e também do seu site no README do se
 
 **Links**
 
-Site: https://brilliant-taffy-9f60c4.netlify.app/
-Planilha de registro de informação: https://docs.google.com/spreadsheets/d/1B10AxsFDiaoUsJ8T-rHjQxj826hNwZ9zeAumJVjqy9A/edit#gid=0
+-Site: https://brilliant-taffy-9f60c4.netlify.app/
+-Planilha de registro de informação: https://docs.google.com/spreadsheets/d/1B10AxsFDiaoUsJ8T-rHjQxj826hNwZ9zeAumJVjqy9A/edit#gid=0
