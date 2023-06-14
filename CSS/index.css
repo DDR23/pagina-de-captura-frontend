@@ -81,3 +81,49 @@ section#barra-info{
         line-height: 28px;
 
     }
+
+
+
+
+                    /*AREA-PRINCIPAL*/
+
+main#area-principal{
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: auto;
+    margin: auto;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+    section#lado-esquerdo{
+        width: 735px;
+        margin-left: 77px;
+    }
+
+        #lado-esquerdo h2{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 20px;
+            color: #000000;
+        }
+
+        #lado-esquerdo h3{
+            margin-top: 60px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 30px;
+            color: #000000;
+        }
+
+    section#lado-direito{
+        display: flex;
+        margin: auto;
+        margin-top: 82px;
+        margin-bottom: 92px;
+    }
