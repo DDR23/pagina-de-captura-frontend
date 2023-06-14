@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Raleway:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #F9F9F9;
+}
+
+
+
+                    /*HEADER*/
+
+header#cabecalho{
+    width: 1440px;
+    height: 475px;
+    background-color: #303030;
+    color: #FFFFFF;
+}
+
+    #cabecalho h1{
+        margin-top: 206px;
+        margin-left: 62px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 72px;
+        letter-spacing: -0.025em;
+        font-feature-settings: 'liga' off;
+        color: #FFFFFF;
+    }
+
+    #cabecalho p{
+        margin-top: 20px;
+        margin-left: 62px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        font-feature-settings: 'liga' off;
+        color: #FFFFFF;
+    }
