@@ -1,192 +1,177 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Raleway:wght@700&display=swap');
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    background-color: #aaaaaa;
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #aaaaaa5e;
 }
 
-
-
-                    /*CABECALHO*/
-
-header#cabecalho{
-    width: 1440px;
-    height: 475px;
-    margin: auto;
-    background-color: #303030;
-    color: #FFFFFF;
+/*CABECALHO*/
+header#cabecalho {
+  width: 1440px;
+  height: 475px;
+  margin: auto;
+  background-color: #303030;
+  color: #FFFFFF;
 }
 
-    #cabecalho h1{
-        margin-top: 206px;
-        margin-left: 62px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 60px;
-        line-height: 72px;
-        letter-spacing: -0.025em;
-        font-feature-settings: 'liga' off;
-        color: #FFFFFF;
-    }
-
-    #cabecalho p{
-        margin-top: 20px;
-        margin-left: 62px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 28px;
-        font-feature-settings: 'liga' off;
-        color: #FFFFFF;
-    }
-
-
-
-                    /*BARRA-INFO*/
-
-section#barra-info{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 1440px;
-    height: 229px;
-    margin: auto;
-    background-color: #F9F9F9;
-    color: #000000;
+#cabecalho h1 {
+  margin-top: 206px;
+  margin-left: 62px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.025em;
+  font-feature-settings: 'liga' off;
+  color: #FFFFFF;
 }
 
-    #barra-info h2{
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 40px;
-        line-height: 28px;
-    }
-
-    #barra-info p{
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 28px;
-
-    }
-
-
-
-
-                    /*AREA-PRINCIPAL*/
-
-main#area-principal{
-    display: flex;
-    align-items: center;
-    width: 1440px;
-    height: auto;
-    margin: auto;
-    background-color: #FFFFFF;
-    color: #000000;
+#cabecalho p {
+  margin-top: 20px;
+  margin-left: 62px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  font-feature-settings: 'liga' off;
+  color: #FFFFFF;
 }
 
-    section#lado-esquerdo{
-        width: 735px;
-        margin-left: 77px;
-    }
-
-        #lado-esquerdo h2{
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 40px;
-            line-height: 20px;
-            color: #000000;
-        }
-
-        #lado-esquerdo h3{
-            margin-top: 60px;
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 300;
-            font-size: 24px;
-            line-height: 30px;
-            color: #000000;
-        }
-
-    section#lado-direito{
-        display: flex;
-        margin: auto;
-        margin-top: 82px;
-        margin-bottom: 92px;
-    }
-
-
-
-
-                    /*AREA-FORMULARIO*/
-
-section#area-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 1440px;
-    height: auto;
-    margin: auto;
-    background-color: #303030;
-    color: #FFFFFF;
+/*BARRA-INFO*/
+section#barra-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1440px;
+  height: 229px;
+  margin: auto;
+  background-color: #F9F9F9;
+  color: #000000;
 }
 
-    #area-form h2{
-        margin-top: 87px;
-        margin-bottom: 48px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 150%;
-    }
+#barra-info h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 28px;
+}
 
-    form{
-        display: flex;
-        flex-direction: column;
-    }
-    
-        input{
-            margin-bottom: 62px;
-            width: 508px;
-            background-color: #FFFFFF;
-            color: #0000004D;
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 24px;
-            line-height: 30px; 
-            padding: 20px;
-            border-radius: 10px;
-            border: none;      
-        }
+#barra-info p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
 
-        input#btn{
-            margin: auto;
-            margin-top: 26px;
-            margin-bottom: 87px;
-            width: 286px;
-            height: 74px;
-            background-color: #C07212;
-            border-radius: 10px;
-            font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 30px;
-            line-height: 30px;
-            color: #FFFFFF;
-            border: none;
-        }
+/*AREA-PRINCIPAL*/
+main#area-principal {
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  height: auto;
+  margin: auto;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+section#lado-esquerdo {
+  width: 735px;
+  margin-left: 77px;
+}
+
+#lado-esquerdo h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 20px;
+  color: #000000;
+}
+
+#lado-esquerdo h3 {
+  margin-top: 60px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+
+section#lado-direito {
+  display: flex;
+  margin: auto;
+  margin-top: 82px;
+  margin-bottom: 92px;
+}
+
+/*AREA-FORMULARIO*/
+section#area-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  height: auto;
+  margin: auto;
+  background-color: #303030;
+  color: #FFFFFF;
+}
+
+#area-form h2 {
+  margin-top: 87px;
+  margin-bottom: 48px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 62px;
+  width: 508px;
+  background-color: #FFFFFF;
+  color: #0000004D;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+input#btn {
+  margin: auto;
+  margin-top: 26px;
+  margin-bottom: 87px;
+  width: 286px;
+  height: 74px;
+  background-color: #C07212;
+  border-radius: 10px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #FFFFFF;
+  border: none;
+}
