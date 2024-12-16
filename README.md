@@ -1,3 +1,9 @@
+# pagina-de-captura-frontend
+Essa atividade trata-se de uma landingpage simple escrita apenas com HTML e CSS, e é o meu primeiro projeto WEB.
+Planilha de registro de informação: https://docs.google.com/spreadsheets/d/1B10AxsFDiaoUsJ8T-rHjQxj826hNwZ9zeAumJVjqy9A/edit#gid=0
+
+Projeto hospedado em: https://brilliant-taffy-9f60c4.netlify.app/
+
 # Desafio-01---FRONTEND---desenvolva-uma-landingpage---Escola-DNC
 
 🎯 Etapas de Desenvolvimento
@@ -16,13 +22,6 @@ Garanta que qualquer pessoa possa acessá-lo através da hospedagem dele no Netl
 
 **ETAPA-05** - Prepare sua documentação.
 Você deverá colocar os links da planilha e também do seu site no README do seu github para disponibilização do arquivo.
-
-## Sobre o projeto
-Essa atividade trata-se de uma landingpage simple escrita apenas com HTML e CSS, e é o meu primeiro projeto WEB.
-
-Projeto hospedado em: https://brilliant-taffy-9f60c4.netlify.app/
-
-Planilha de registro de informação: https://docs.google.com/spreadsheets/d/1B10AxsFDiaoUsJ8T-rHjQxj826hNwZ9zeAumJVjqy9A/edit#gid=0
 
 ## Screenshots
 ![App Screenshot](/public/picture_01.png)
